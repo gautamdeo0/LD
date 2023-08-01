@@ -1,0 +1,44 @@
+$date
+	Thu Feb 02 10:25:26 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module gates_tb $end
+$var wire 3 ! y [2:0] $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$scope module aon $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 3 $ y [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 $
+0#
+0"
+b1 !
+$end
+#50
+b11 !
+b11 $
+1#
+#100
+b10 !
+b10 $
+0#
+1"
+#150
+b110 !
+b110 $
+1#
+#200

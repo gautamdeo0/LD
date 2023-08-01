@@ -1,0 +1,45 @@
+$date
+	Fri Feb 03 13:44:30 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_andor $end
+$var wire 1 ! y $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ c $end
+$var reg 1 % d $end
+$scope module ao $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 % D $end
+$var wire 1 ! Y $end
+$var wire 1 & and_op1 $end
+$var wire 1 ' and_op2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1'
+0&
+1%
+1$
+1#
+0"
+1!
+$end
+#10
+0!
+0'
+0%
+0#
+#20

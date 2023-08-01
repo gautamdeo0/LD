@@ -1,0 +1,84 @@
+$date
+	Fri Feb 03 13:45:58 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 1 ! op $end
+$var reg 1 " sel1 $end
+$var reg 1 # sel2 $end
+$var reg 1 $ t1 $end
+$var reg 1 % t2 $end
+$var reg 1 & t3 $end
+$var reg 1 ' t4 $end
+$scope module muxg $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 * c $end
+$var wire 1 + d $end
+$var wire 1 ! op $end
+$var wire 1 " sel1 $end
+$var wire 1 # sel2 $end
+$var wire 1 $ t1 $end
+$var wire 1 % t2 $end
+$var wire 1 & t3 $end
+$var wire 1 ' t4 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#20
+1$
+#40
+1#
+0$
+#60
+1%
+1$
+#80
+0#
+1"
+1&
+0%
+0$
+#100
+1'
+0&
+1%
+1$
+#120
+1!
+1+
+1(
+1#
+0%
+#140
+0+
+1*
+1)
+0(
+0'
+1&
+1%
+0$
+#160

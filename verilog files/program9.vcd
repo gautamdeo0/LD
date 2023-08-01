@@ -1,0 +1,61 @@
+$date
+	Thu Feb 02 10:30:51 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_Rshiftregister $end
+$var wire 4 ! Q [3:0] $end
+$var reg 1 " SDR $end
+$var reg 1 # clk $end
+$var reg 1 $ clrb $end
+$scope module RS $end
+$var wire 1 " SDR $end
+$var wire 1 # clk $end
+$var wire 1 $ clrb $end
+$var reg 4 % Q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+0$
+1#
+1"
+b0 !
+$end
+#50
+0#
+#100
+b1000 !
+b1000 %
+1#
+1$
+#150
+0#
+#200
+b1100 !
+b1100 %
+1#
+#250
+0#
+0"
+#300
+b110 !
+b110 %
+1#
+#350
+0#
+#400
+b11 !
+b11 %
+1#
+#450
+0#
